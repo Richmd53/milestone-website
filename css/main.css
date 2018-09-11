@@ -1,0 +1,175 @@
+/***** BASE STYLES *****/
+
+body {
+    background: #E2E2E2;
+    color: #247BA0;
+    font-variant: small-caps;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1300px;
+    margin: 0px auto;
+    clear: both
+}
+
+.half-width {
+    width: 650px;
+    float: left;
+}
+
+/***** Header *****/
+#header {
+    height: 500px;
+    
+}
+
+header img {
+    height: auto;
+    width: 100%;
+}
+
+header h3 {
+    font-family: "Trykker", serif;
+    font-size: 36px;
+    padding: 10px;
+}
+
+nav {
+    font-family: "Trykker", serif;
+    font-size: 36px;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #0A2463;
+    
+}
+
+.text-block {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+    padding-top: 450px;
+    padding-left: 150px;
+}
+
+.text-block span {
+    color: #FB3640;
+}
+
+/***** Portfolio *****/
+
+#portfolio {
+    height: 700px;
+    margin: auto;
+} 
+
+#portfolio img {
+    margin: auto;
+    align: center;
+}
+
+#portfolio h3 {
+    color: #FB3640;
+    font-size: 30px;
+    font-variant: small-caps;
+    text-align: center;   
+}
+
+#portfolio p {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+#portfolio span {
+    color: #0A2463;
+}
+
+.blue-border {
+    border: 10px solid #0A2463;
+}
+
+#width90 {
+    height: 300px;
+    margin: auto;
+    width: 95%;
+}
+
+#widthninety {
+    height: 300px;
+    margin: auto;
+    width: 95%;
+}
+
+/***** About *****/
+
+#about {
+    height: 300px;
+} 
+
+#about img {
+    float: left;
+    height: 330px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 600px;
+}
+
+#about h3 {
+    color: #0A2463;
+}
+
+#about-words {
+    border: 10px solid #605F5E;
+    float: right;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 600px;
+    height: 300px;
+}
+
+#about p {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+/***** Contact *****/
+
+#contact {
+    height: 250px;
+    font-size: 24px;
+}
+
+#contact .half-width {
+    padding-top: 15px;
+    
+}
+
+#contact h3 {
+    color: #FB3640;
+
+}
+
+#contact p {
+    font-family: 'Merriweather', serif;
+}
+
+#contact span {
+    font-size: 30px;
+    color: #FB3640;
+}
